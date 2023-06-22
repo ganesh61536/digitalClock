@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+#container{
+    background-color:rgba(0, 255, 255, 0.267);
+    height:300px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    
+}
+#Time,#Date,#Day{
+    color:white;
+    font-size:60px;
+    box-shadow: 1px 1px 1px black;
+
+}
+#Date{
+    font-size:3.5vw;
+}
+#Day{
+    font-size:3vw;
+}
+#sec{
+    color:lawngreen;
+}
